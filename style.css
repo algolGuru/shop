@@ -128,7 +128,7 @@ main {
 
 .cash_deposit {
     display: flex;
-    width: 32%;
+    width: 33%;
 }
 
 .cash_deposit button {
@@ -204,7 +204,7 @@ main {
 
 .red {
     font-weight: 900;
-    font-size: 22px;
+    font-size: 20px;
     color: #C70053;
 }
 
@@ -253,13 +253,13 @@ main {
 
 .indigo {
     font-weight: 900;
-    font-size: 22px;
+    font-size: 20px;
     color: #5700C7;
 }
 
 .yellow {
     font-weight: 900;
-    font-size: 22px;
+    font-size: 20px;
     color: #F0B90B;
 }
 
