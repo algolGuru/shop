@@ -46,6 +46,12 @@ blockquote, q {
     padding: 50px 20px;
 }
 
+button {
+    min-width: 130px;
+    max-width: 130px;
+    width: 100%;
+}
+
 header {
     width: 100%;
     background-color: #0B0E11;
@@ -86,6 +92,10 @@ main {
     justify-content: space-between;
 }
 
+.total {
+    width: 78%;
+}
+
 .total_item1 {
     display: flex;
     align-items: flex-end;
@@ -118,6 +128,7 @@ main {
 
 .cash_deposit {
     display: flex;
+    width: 32%;
 }
 
 .cash_deposit button {
@@ -139,7 +150,7 @@ main {
 }
 
 .deposit {
-    margin-right: 15px;
+    margin-right: 18px;
 }
 
 .deposit p {
@@ -174,8 +185,12 @@ main {
 
 .top_pack {
     display: flex;
-    width: 30%;
+    width: 29%;
     align-items: flex-end;
+}
+
+.top_pack div {
+    width: 50%;
 }
 
 .top_pack div:first-child {
@@ -184,6 +199,7 @@ main {
 
 .top_pack div:last-child {
     text-align: end;
+    justify-content: flex-end;
 }
 
 .red {
@@ -223,10 +239,10 @@ main {
 }
 
 .svg {
+    width: 100% !important;
+    justify-content: flex-end;
     display: flex;
-}
-
-.svg {
+    text-align: end;
     font-size: 14px;
     line-height: 16px;
     color: #42B089;
